@@ -51,7 +51,7 @@ if ($vencimiento == 'yes') {
 }
 
 $post['url_respuesta'] = get_site_url().'/confirmacion-cobrosya/?id='.$post['id_transaccion'];
-$post['consumo_final'] = 1;
+$post['consumo_final'] = 0;
 $post['direccion'] = $order->billing_address_1;
 $post['ciudad'] = $order->billing_city;
 $post['departamento'] = $order->billing_state;

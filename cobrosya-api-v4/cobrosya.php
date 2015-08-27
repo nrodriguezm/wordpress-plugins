@@ -267,7 +267,7 @@ add_shortcode('confirmacion_cobrosya', 'shortcode_confirmacion');
 
 //Agregar campo de cuotas en el checkout
 function campo_cuotas($fields){
-	
+	$fields['billing']['billing_phone']['label'] = "Celular";
     $fields['extra_fields']['cuotas'] = array(
 		'id' => '_cuotas',
         'type' => 'select',
@@ -287,11 +287,17 @@ add_filter( 'woocommerce_checkout_fields', 'campo_cuotas', 50 );
 // Mostrar el campo en el checkout
 function mostrar_campo_cuotas(){ 
 
-    $checkout = WC()->checkout(); 
-	?>
+    $checkout = WC()->checkout(); ?>
+
     <div class="extra-fields cuotas">
-   		<?php woocommerce_form_field( 'cuotas', $checkout->checkout_fields['extra_fields']['cuotas'], $checkout->get_value( 'cuotas' ) ); ?>
+   
+    <?php foreach ( $checkout->checkout_fields['extra_fields'] as $key => $field ) : ?>
+			
+            <?php echo("<div>"); woocommerce_form_field( $key, $field, $checkout->get_value( $key ) ); echo("</div>"); ?>
+			
+        <?php endforeach; ?>
     </div>
+
 <?php }
 
 add_action( 'woocommerce_after_checkout_billing_form' ,'mostrar_campo_cuotas' );
