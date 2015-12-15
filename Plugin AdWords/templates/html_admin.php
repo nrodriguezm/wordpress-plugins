@@ -11,7 +11,7 @@ function html_post_asociado($post) {
 	*
 	*
 	*/
-	$exluidos = array('attachment', 'revision', 'nav_menu_item', 'nf_sub', 'adwords');
+	$exluidos = array('attachment', 'revision', 'nav_menu_item', 'nf_sub', 'padwords');
 	$id_post_asociados = get_post_meta( $post->ID, 'post_asociado', true );
 	
 	foreach ($post_types as $post_type){
@@ -91,23 +91,5 @@ function html_conversion_label($post) {
 	<?php
 	
 }
-
-function adwords( $atts ){
-	echo("<!-- Google Code -->\n");
-	echo("<script type='text/javascript'>/*<![CDATA[ */\n");
-	echo("var google_conversion_id = ".$atts['id'].";\n");
-	echo("var google_conversion_language = '".$atts['language']."';\n");
-	echo("var google_conversion_format = '".$atts['format']."';\n");
-	echo("var google_conversion_color = '".$atts['color']."';\n");
-	echo("var google_conversion_label = '".$atts['label']."';\n");
-	echo("var google_remarketing_only = ".$atts['remarketing'].";\n");
-	echo("/* ]]> */</script>");
-	echo("<script type='text/javascript' src='http://www.googleadservices.com/pagead/conversion.js'></script>");
-	echo("<noscript>");
-	echo("<div style='display:inline;'>");
-	echo("<img height='1' width='1' style='border-style:none;' alt='' src='//www.googleadservices.com/pagead/conversion/".$atts['id']."/?label=".$atts['label']."&amp;guid=ON&amp;script=0'/>");
-	echo("</div></noscript>");
-}
-add_shortcode( 'adWords', 'adwords' );
 
 ?>

@@ -15,13 +15,13 @@ add_action( 'init', 'crear_adwords' );
 function crear_adwords() {
 
   $args = array(
-		'labels'             => array('name' => __( 'AdWords' ), 'singular_name' => __( 'AdWords' ), 'add_new_item' => 'Añadir AdWords'),
+		'labels'             => array('name' => __( 'AdWords' ), 'singular_name' => __( 'PAdWords' ), 'add_new_item' => 'Añadir AdWords'),
 		'public'             => true,
 		'publicly_queryable' => true,
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'AdWords' ),
+		'rewrite'            => array( 'slug' => 'PAdWords' ),
 		'capability_type'    => 'post',
 		'has_archive'        => true,
 		'hierarchical'       => false,
@@ -29,28 +29,28 @@ function crear_adwords() {
 		'supports'           => array( 'title')
 	);
   
-    register_post_type( 'AdWords', $args);
+    register_post_type( 'PAdWords', $args);
 }
 
 /***Registrar los campos del post AdWords***/
 add_action( 'add_meta_boxes', 'agregar_campos_adwords' );
 function agregar_campos_adwords() {
 
-	add_meta_box('post_asociado','Seleccionar posts', 'html_post_asociado', 'AdWords');
+	add_meta_box('post_asociado','Seleccionar posts', 'html_post_asociado', 'PAdWords');
 	
 }
 
 add_action( 'add_meta_boxes', 'conversion_id' );
 function conversion_id() {
 
-	add_meta_box('conversion_id','Ingresar conversion id', 'html_conversion_id', 'AdWords');
+	add_meta_box('conversion_id','Ingresar conversion id', 'html_conversion_id', 'PAdWords');
 	
 }
 
 add_action( 'add_meta_boxes', 'conversion_label' );
 function conversion_label() {
 
-	add_meta_box('conversion_label','Ingresar conversion label', 'html_conversion_label', 'AdWords');
+	add_meta_box('conversion_label','Ingresar conversion label', 'html_conversion_label', 'PAdWords');
 	
 }
 

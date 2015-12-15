@@ -28,7 +28,18 @@ function codigoconversion($content) {
 				$id_conversion = get_post_meta( $post->ID, 'conversion_id', true );
 				
 				$label = get_post_meta( $post->ID, 'conversion_label', true );
-				echo do_shortcode("[adWords id='$id_conversion' language='en' format='3' color='fffff' label='$label' remarketing='false']");
+				//echo do_shortcode("[adWords id='$id_conversion' language='en' format='3' color='fffff' label='$label' remarketing='false']");
+				echo("<!-- Google Code -->\n");
+				echo("<script type='text/javascript'>/*<![CDATA[ */\n");
+				echo("var google_conversion_id = ".$id_conversion.";\n");
+				echo("var google_conversion_language = 'en';\n");
+				echo("var google_conversion_format = '3';\n");
+				echo("var google_conversion_color = 'fffff';\n");
+				echo("var google_conversion_label = '".$label."';\n");
+				echo("var google_remarketing_only = 'false';\n");
+				echo("/* ]]> */</script>");
+				echo("<script type='text/javascript' src='http://www.googleadservices.com/pagead/conversion.js'></script>");
+				echo('<noscript><div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/'.$id_conversion.'/?label='.$label.'&amp;guid=ON&amp;script=0"/></div></noscript>');
 			}
 		}
 		
@@ -37,7 +48,7 @@ function codigoconversion($content) {
 	return $content;
 }   
 
-add_action('the_content', 'codigoconversion');
+add_action( 'wp_footer', 'codigoconversion' );
 
 
 ?>
