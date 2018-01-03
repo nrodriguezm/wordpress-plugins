@@ -1,0 +1,123 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+FontName et-line
+FontSubfamily line
+UniqueID FontForge 2.0 : et-line : 27-1-2014
+FullName et-line
+Version Version 1.0
+PostScriptName et-line
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 0
+UnderlinePosition 0
+FontHeightOffset 90
+Ascender 939
+Descender -64
+FontBBox -63 -64 1750 939
+StartCharMetrics 104
+U 57344 ; WX 1000 ; N uniE000 ; G 4
+U 57345 ; WX 1313 ; N uniE001 ; G 5
+U 57346 ; WX 1219 ; N uniE002 ; G 6
+U 57347 ; WX 781 ; N uniE003 ; G 7
+U 57348 ; WX 594 ; N uniE004 ; G 8
+U 57349 ; WX 750 ; N uniE005 ; G 9
+U 57350 ; WX 1063 ; N uniE006 ; G 10
+U 57351 ; WX 1031 ; N uniE007 ; G 11
+U 57352 ; WX 875 ; N uniE008 ; G 12
+U 57353 ; WX 1313 ; N uniE009 ; G 13
+U 57354 ; WX 844 ; N uniE00A ; G 14
+U 57355 ; WX 1313 ; N uniE00B ; G 15
+U 57356 ; WX 1313 ; N uniE00C ; G 16
+U 57357 ; WX 1063 ; N uniE00D ; G 17
+U 57358 ; WX 969 ; N uniE00E ; G 18
+U 57359 ; WX 1000 ; N uniE00F ; G 19
+U 57360 ; WX 1031 ; N uniE010 ; G 20
+U 57361 ; WX 1156 ; N uniE011 ; G 21
+U 57362 ; WX 1313 ; N uniE012 ; G 22
+U 57363 ; WX 1313 ; N uniE013 ; G 23
+U 57364 ; WX 1313 ; N uniE014 ; G 24
+U 57365 ; WX 1188 ; N uniE015 ; G 25
+U 57366 ; WX 1188 ; N uniE016 ; G 26
+U 57367 ; WX 1313 ; N uniE017 ; G 27
+U 57368 ; WX 1125 ; N uniE018 ; G 28
+U 57369 ; WX 969 ; N uniE019 ; G 29
+U 57370 ; WX 1000 ; N uniE01A ; G 30
+U 57371 ; WX 1313 ; N uniE01B ; G 31
+U 57372 ; WX 1000 ; N uniE01C ; G 32
+U 57373 ; WX 1031 ; N uniE01D ; G 33
+U 57374 ; WX 875 ; N uniE01E ; G 34
+U 57375 ; WX 656 ; N uniE01F ; G 35
+U 57376 ; WX 875 ; N uniE020 ; G 36
+U 57377 ; WX 1250 ; N uniE021 ; G 37
+U 57378 ; WX 844 ; N uniE022 ; G 38
+U 57379 ; WX 1063 ; N uniE023 ; G 39
+U 57380 ; WX 875 ; N uniE024 ; G 40
+U 57381 ; WX 1281 ; N uniE025 ; G 41
+U 57382 ; WX 1094 ; N uniE026 ; G 42
+U 57383 ; WX 1313 ; N uniE027 ; G 43
+U 57384 ; WX 1188 ; N uniE028 ; G 44
+U 57385 ; WX 906 ; N uniE029 ; G 45
+U 57386 ; WX 1094 ; N uniE02A ; G 46
+U 57387 ; WX 1313 ; N uniE02B ; G 47
+U 57388 ; WX 1000 ; N uniE02C ; G 48
+U 57389 ; WX 1063 ; N uniE02D ; G 49
+U 57390 ; WX 1000 ; N uniE02E ; G 50
+U 57391 ; WX 1313 ; N uniE02F ; G 51
+U 57392 ; WX 688 ; N uniE030 ; G 52
+U 57393 ; WX 1000 ; N uniE031 ; G 53
+U 57394 ; WX 1000 ; N uniE032 ; G 54
+U 57395 ; WX 969 ; N uniE033 ; G 55
+U 57396 ; WX 1000 ; N uniE034 ; G 56
+U 57397 ; WX 1000 ; N uniE035 ; G 57
+U 57398 ; WX 688 ; N uniE036 ; G 58
+U 57399 ; WX 1000 ; N uniE037 ; G 59
+U 57400 ; WX 719 ; N uniE038 ; G 60
+U 57401 ; WX 1313 ; N uniE039 ; G 61
+U 57402 ; WX 469 ; N uniE03A ; G 62
+U 57403 ; WX 719 ; N uniE03B ; G 63
+U 57404 ; WX 844 ; N uniE03C ; G 64
+U 57405 ; WX 1094 ; N uniE03D ; G 65
+U 57406 ; WX 1000 ; N uniE03E ; G 66
+U 57407 ; WX 1094 ; N uniE03F ; G 67
+U 57408 ; WX 1125 ; N uniE040 ; G 68
+U 57409 ; WX 1125 ; N uniE041 ; G 69
+U 57410 ; WX 1750 ; N uniE042 ; G 70
+U 57411 ; WX 719 ; N uniE043 ; G 71
+U 57412 ; WX 875 ; N uniE044 ; G 72
+U 57413 ; WX 781 ; N uniE045 ; G 73
+U 57414 ; WX 938 ; N uniE046 ; G 74
+U 57415 ; WX 750 ; N uniE047 ; G 75
+U 57416 ; WX 1000 ; N uniE048 ; G 76
+U 57417 ; WX 1313 ; N uniE049 ; G 77
+U 57418 ; WX 1156 ; N uniE04A ; G 78
+U 57419 ; WX 1313 ; N uniE04B ; G 79
+U 57420 ; WX 1313 ; N uniE04C ; G 80
+U 57421 ; WX 1313 ; N uniE04D ; G 81
+U 57422 ; WX 1313 ; N uniE04E ; G 82
+U 57423 ; WX 1000 ; N uniE04F ; G 83
+U 57424 ; WX 1000 ; N uniE050 ; G 84
+U 57425 ; WX 1000 ; N uniE051 ; G 85
+U 57426 ; WX 1000 ; N uniE052 ; G 86
+U 57427 ; WX 1000 ; N uniE053 ; G 87
+U 57428 ; WX 1000 ; N uniE054 ; G 88
+U 57429 ; WX 1000 ; N uniE055 ; G 89
+U 57430 ; WX 1000 ; N uniE056 ; G 90
+U 57431 ; WX 1000 ; N uniE057 ; G 91
+U 57432 ; WX 1000 ; N uniE058 ; G 92
+U 57433 ; WX 938 ; N uniE059 ; G 93
+U 57434 ; WX 1000 ; N uniE05A ; G 94
+U 57435 ; WX 1000 ; N uniE05B ; G 95
+U 57436 ; WX 1000 ; N uniE05C ; G 96
+U 57437 ; WX 1000 ; N uniE05D ; G 97
+U 57438 ; WX 1000 ; N uniE05E ; G 98
+U 57439 ; WX 1000 ; N uniE05F ; G 99
+U 57440 ; WX 1000 ; N uniE060 ; G 100
+U 57441 ; WX 1000 ; N uniE061 ; G 101
+U 57442 ; WX 1000 ; N uniE062 ; G 102
+U 57443 ; WX 1000 ; N uniE063 ; G 103
+U 61440 ; WX 0 ; N uniF000 ; G 3
+EndCharMetrics
+EndFontMetrics
