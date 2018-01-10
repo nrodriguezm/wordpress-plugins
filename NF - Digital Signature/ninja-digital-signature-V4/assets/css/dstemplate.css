@@ -1,0 +1,9 @@
+.single-ds_template .wrap{
+	width: 100%;
+    max-width: 100%;
+}
+
+.single-ds_template #primary{
+	float: none !important;
+    margin: auto;
+}
